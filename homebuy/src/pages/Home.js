@@ -11,6 +11,8 @@ import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 import Image from "react-bootstrap/Image";
 import skyline from "../images/skyline.jpg";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCheckSquare} from '@fortawesome/free-solid-svg-icons'
 
 class Home extends Component {
   render() {
@@ -19,7 +21,8 @@ class Home extends Component {
         <Jumbotron fluid>
           <Container>
             <Fade top>
-              <h1>Welcome to Gordo And Flaca's home buying</h1>
+              <h1>Sell Your House Fast In San Antonio, Tx.</h1>
+              <h3>Get A Fair Cash Offer No Fees. No Commissions!</h3>
             </Fade>
           </Container>
         </Jumbotron>
@@ -27,7 +30,7 @@ class Home extends Component {
           <Image id="imgSky" src={skyline}></Image>
         </Zoom>
         <Fade right>
-          <Card style={{width: "18rem"}}>
+          <Card style={{width: "18rem"}} className="homeCard">
             <Card.Img />
             <Card.Body>
               <Card.Title>Our Mission</Card.Title>
@@ -97,9 +100,6 @@ class Home extends Component {
               <ListGroupItem>Vandalism</ListGroupItem>
               <ListGroupItem>Hoarding</ListGroupItem>
             </ListGroup>
-            <Card.Body>
-              <Card.Link href="#">ContactUs</Card.Link>
-            </Card.Body>
           </Card>
         </Fade>
         <br></br>
@@ -117,17 +117,15 @@ class Home extends Component {
               <ListGroupItem>Surounding Areas</ListGroupItem>
               <ListGroupItem>Out Of State</ListGroupItem>
             </ListGroup>
-            <Card.Body>
-              <Card.Link href="#">ContactUs</Card.Link>
-            </Card.Body>
           </Card>
         </Fade>
         <br></br>
         <h3>How It Works</h3>
         <Fade right>
-          <Card style={{width: "18rem"}}>
+          <Card  style={{width: "18rem", }} >
             <Card.Img />
             <Card.Body>
+            <FontAwesomeIcon id="check" icon={faCheckSquare} size="2x" />
               <Card.Title>Step #1: Offer</Card.Title>
             </Card.Body>
             <ListGroup className="list-group-flush">
@@ -136,9 +134,48 @@ class Home extends Component {
               <ListGroupItem>We do not share your information</ListGroupItem>
               <ListGroupItem>We make a CASH offer</ListGroupItem>
             </ListGroup>
+          </Card>
+        </Fade>
+        <br></br>
+        <Fade right>
+          <Card style={{width: "18rem"}}>
+            <Card.Img />
             <Card.Body>
-              <Card.Link href="#">ContactUs</Card.Link>
+              <Card.Title>Step #2: Contract</Card.Title>
             </Card.Body>
+            <ListGroup className="list-group-flush">
+              <ListGroupItem>If you accept the offer, we send a contract</ListGroupItem>
+              <ListGroupItem>You sign the contract</ListGroupItem>
+            </ListGroup>
+          </Card>
+        </Fade>
+        <br></br>
+        <Fade right>
+          <Card style={{width: "18rem"}}>
+            <Card.Body>
+              <Card.Title>Step #3: Get Cash</Card.Title>
+            </Card.Body>
+            <ListGroup className="list-group-flush">
+              <ListGroupItem>You choose a closing date</ListGroupItem>
+              <ListGroupItem>You get paid Cash (in as little as 7 days)</ListGroupItem>
+            </ListGroup>
+          </Card>
+        </Fade>
+        <br></br>
+        <Fade bottom>
+        <Card style={{width: "18rem"}}>
+            <Card.Body>
+              <Card.Title>Get Your Fair Cash Offer</Card.Title>
+              <Card.Text>
+              If you want to sell your house, but dont want to deal with agents,
+              fees, commissions, showings, being listedon the MLS, or waiting
+              months to close... then click the button below now. We
+              can make a fair cash offer on your home and close quickly (in as
+              little as 7 days). You are under No obligation to accept the
+              offer, the choice is yours.
+            </Card.Text>
+            </Card.Body>
+            <Button variant="primary" href="mailto: ">Get Your Cash Offer</Button>
           </Card>
         </Fade>
       </body>
