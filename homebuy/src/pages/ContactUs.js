@@ -1,11 +1,16 @@
 import React, {Component} from "react";
 import {Container} from "react-bootstrap";
+import {Fade} from "react-reveal";
+
 
 class ContactUs extends Component {
   render() {
     return (
       <Container id="contactContainer">
+          <Fade top>
         <h3>Contact Us</h3>
+        </Fade>
+        <Fade bottom>
         <form action="/action_page.php">
           <label for="fName">First Name</label>
           <input
@@ -39,6 +44,7 @@ class ContactUs extends Component {
           ></textarea>
           <input type="submit" value="Submit"></input>
         </form>
+        </Fade>
       </Container>
     );
   }

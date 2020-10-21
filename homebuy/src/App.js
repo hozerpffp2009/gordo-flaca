@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import Nav from "./components/Nav";
+import Footer from "./components/Footer"
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
             <Route path="/aboutUs" component={AboutUs} />
             <Route path="/contactUs" component={ContactUs} />
           </Switch>
+          <Footer />
         </div>
       </Router>
     );
