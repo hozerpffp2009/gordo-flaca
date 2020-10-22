@@ -17,7 +17,7 @@ class Footer extends Component {
                   <h5 className="title">Links</h5>
                   <ul>
                     <li className="list-unstyled">
-                      <a href="/">Home</a>
+                      <a href="/gordo-flaca">Home</a>
                     </li>
                     <li className="list-unstyled">
                       <a href="/aboutUs">About Us</a>
