@@ -1,7 +1,7 @@
 {
-  "homepage": "https://hozerpffp2009.github.io/gordo-flaca",
   "name": "homebuy",
   "version": "0.1.0",
+  "homepage": "https://hozerpffp2009.github.io/gordo-flaca",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
@@ -22,12 +22,12 @@
     "react-scroll": "^1.8.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
