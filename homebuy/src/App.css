@@ -6,8 +6,18 @@ body {
   background: url("./images/oldHome.JPG") no-repeat center center fixed;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  
 }
 
+/* .aboutBackground {
+  background: url("./images/sam-sel.jpeg") no-repeat center center fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+} */
+
+#aboutText {
+  margin-top: 10%;
+}
 .Card {
   opacity: 0.8;
 }
@@ -48,8 +58,8 @@ h1 {
 
 #samImg {
   border-radius: 50%;
-  width: 25%;
-  margin-left: 40%;
+  width: 40%;
+  margin-left: 30%;
 }
 
 .nav-link {

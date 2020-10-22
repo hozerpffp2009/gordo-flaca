@@ -10,7 +10,7 @@ class Footer extends Component {
                 <MDBCol md="6">
                   <h5 className="title">Gordo and flaca</h5>
                   <p>
-                   A loving husband and wife willing to purchase your home at a reasonable price for CASH.
+                   A loving husband and wife willing to purchase your home and make a reasonable offer for CASH.
                   </p>
                 </MDBCol>
                 <MDBCol md="6">

@@ -7,15 +7,19 @@ class AboutUs extends Component {
   render() {
     return (
       <body>
-        <Container>
+        <div className="aboutBackground">
+          <div className="jumbotron">
           <Fade top>
             <h1>About Us</h1>
           </Fade>
+          </div>
+        <Container>
+
           <Roll bottom>
             <Image id="samImg" src={samSel} />
           </Roll>
           <Fade bottom>
-            <p>
+            <p id="aboutText">
               Cras in quam non ligula dignissim egestas a et odio. Curabitur
               tincidunt id tortor eget tristique. Cras convallis mi quis
               tristique luctus. Vivamus vitae mollis sapien. Donec aliquam et ex
@@ -31,6 +35,7 @@ class AboutUs extends Component {
             </p>
           </Fade>
         </Container>
+        </div>
       </body>
     );
   }
