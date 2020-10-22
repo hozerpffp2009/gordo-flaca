@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/%7Bgordo-flaca%7D/static/css/main.ac080783.chunk.css",
+    "main.js": "/%7Bgordo-flaca%7D/static/js/main.2f4f56fd.chunk.js",
+    "main.js.map": "/%7Bgordo-flaca%7D/static/js/main.2f4f56fd.chunk.js.map",
+    "runtime-main.js": "/%7Bgordo-flaca%7D/static/js/runtime-main.59db6fb6.js",
+    "runtime-main.js.map": "/%7Bgordo-flaca%7D/static/js/runtime-main.59db6fb6.js.map",
+    "static/js/2.0b803433.chunk.js": "/%7Bgordo-flaca%7D/static/js/2.0b803433.chunk.js",
+    "static/js/2.0b803433.chunk.js.map": "/%7Bgordo-flaca%7D/static/js/2.0b803433.chunk.js.map",
+    "index.html": "/%7Bgordo-flaca%7D/index.html",
+    "precache-manifest.55aebd965520a8dee5eeac12a38cb9ef.js": "/%7Bgordo-flaca%7D/precache-manifest.55aebd965520a8dee5eeac12a38cb9ef.js",
+    "service-worker.js": "/%7Bgordo-flaca%7D/service-worker.js",
+    "static/css/main.ac080783.chunk.css.map": "/%7Bgordo-flaca%7D/static/css/main.ac080783.chunk.css.map",
+    "static/js/2.0b803433.chunk.js.LICENSE.txt": "/%7Bgordo-flaca%7D/static/js/2.0b803433.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/%7Bgordo-flaca%7D/static/media/oldHome.81eaddb7.JPG",
+    "static/media/sam-sel.jpeg": "/%7Bgordo-flaca%7D/static/media/sam-sel.70942b01.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59db6fb6.js",
+    "static/js/2.0b803433.chunk.js",
+    "static/css/main.ac080783.chunk.css",
+    "static/js/main.2f4f56fd.chunk.js"
+  ]
+}
