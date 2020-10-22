@@ -10,8 +10,7 @@ class Footer extends Component {
                 <MDBCol md="6">
                   <h5 className="title">Gordo and flaca</h5>
                   <p>
-                    Here you can use rows and columns here to organize your footer
-                    content.
+                   A loving husband and wife willing to purchase your home at a reasonable price for CASH.
                   </p>
                 </MDBCol>
                 <MDBCol md="6">
