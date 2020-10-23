@@ -6,7 +6,7 @@ import {Fade, Roll} from "react-reveal";
 class AboutUs extends Component {
   render() {
     return (
-      <body>
+      
         <div className="aboutBackground">
           <div className="jumbotron">
           <Fade top>
@@ -36,7 +36,7 @@ class AboutUs extends Component {
           </Fade>
         </Container>
         </div>
-      </body>
+     
     );
   }
 }

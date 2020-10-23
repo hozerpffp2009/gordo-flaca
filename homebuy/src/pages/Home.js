@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import {Button, Card, ListGroup, ListGroupItem} from "react-bootstrap";
+import {Card, ListGroup, ListGroupItem} from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -17,8 +17,7 @@ import {MDBNavLink} from "mdbreact";
 
 class Home extends Component {
   render() {
-    return (
-      <body>
+    return (      
         <div class="background">
           <div class="jumbotron">
             <Fade top>
@@ -279,17 +278,14 @@ class Home extends Component {
                       obligation to accept the offer, the choice is yours.
                     </Card.Text>
                   </Card.Body>
-                  <Button variant="primary" href="/contactUs">
-                    Get Your Cash Offer
-                  </Button>
+                  <MDBNavLink to="/contactUs">Get Your Cash Offer</MDBNavLink>
                 </Card>
               </Fade>
             </div>
           </div>
         </div>
-      </body>
+   
     );
   }
 }
-
 export default Home;
