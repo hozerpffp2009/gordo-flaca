@@ -13,6 +13,7 @@ import {
   faMoneyBillAlt,
   faWallet,
 } from "@fortawesome/free-solid-svg-icons";
+import {MDBNavLink} from "mdbreact";
 
 class Home extends Component {
   render() {
@@ -45,10 +46,8 @@ class Home extends Component {
                       quickly.
                     </Card.Text>
                   </Card.Body>
-                  <Card.Body>
-                    <Button variant="primary" href="/aboutUs">
-                      About Us
-                    </Button>
+                  <Card.Body>                  
+                      <MDBNavLink to="/aboutUs">About Us</MDBNavLink>                   
                   </Card.Body>
                 </Card>
               </Fade>

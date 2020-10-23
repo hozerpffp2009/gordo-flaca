@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import { MDBCol, MDBContainer, MDBRow, MDBFooter, MDBNavLink } from "mdbreact";
 
 class Footer extends Component {
     render() {
@@ -17,16 +17,16 @@ class Footer extends Component {
                   <h5 className="title">Links</h5>
                   <ul>
                     <li className="list-unstyled">
-                      <a href="/gordo-flaca">Home</a>
+                    <MDBNavLink to="/gordo-flaca">Home</MDBNavLink>
                     </li>
                     <li className="list-unstyled">
-                      <a href="/aboutUs">About Us</a>
+                    <MDBNavLink to="/aboutUs">About Us</MDBNavLink>
                     </li>
                     <li className="list-unstyled">
-                      <a href="/contactUs">Contact Us</a>
+                    <MDBNavLink to="/contactUs">Contact Us</MDBNavLink>
                     </li>
                     <li className="list-unstyled">
-                      <a href="https://hozerpffp2009.github.io/reactPortfolio/">Created by Joseph A.</a>
+                      <MDBNavLink to="https://hozerpffp2009.github.io/reactPortfolio/">Created by Joseph A.</MDBNavLink>
                     </li>
                   </ul>
                 </MDBCol>

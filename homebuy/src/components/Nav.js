@@ -17,7 +17,9 @@ class Nav extends Component {
     return (
       <MDBNavbar className="topnav" dark expand="md">
       <MDBNavbarBrand>
-      <a class="navbar-brand" href="/contactUs"><FontAwesomeIcon id="check" icon={faEnvelope} size="2x" /></a>
+      <MDBNavLink to="/contactUs">
+      <a class="navbar-brand"><FontAwesomeIcon id="check" icon={faEnvelope} size="2x" /></a>
+      </MDBNavLink>
       </MDBNavbarBrand>
       <MDBNavbarToggler onClick={this.toggleCollapse} />
       <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -34,13 +36,6 @@ class Nav extends Component {
         </MDBNavbarNav>
       </MDBCollapse>
     </MDBNavbar>
-
-      // <div class="topnav">
-      //   <a class="navbar-brand" href="/contactUs"><FontAwesomeIcon id="check" icon={faEnvelope} size="2x" /></a>
-      //   <a href="/">Home</a>
-      //   <a href="/contactUs">Contact Us</a>
-      //   <a href="/aboutUs">About Us</a>      
-      // </div>
     );
   }
 }
