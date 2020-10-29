@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gordo-flaca/precache-manifest.4fb18fa5e6c092fe8bf4124f609de31a.js"
+  "/gordo-flaca/precache-manifest.e6db15cdfc969d5728947d81ef0589c4.js"
 );
 
 self.addEventListener('message', (event) => {
