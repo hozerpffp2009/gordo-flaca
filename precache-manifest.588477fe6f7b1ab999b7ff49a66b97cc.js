@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed4e397da6dff04c3d627597c3b2179a",
+    "revision": "3f984b347044f722343254badc8788cb",
     "url": "/gordo-flaca/index.html"
   },
   {
-    "revision": "367244c7f913dbed2771",
+    "revision": "4dd046b4d655fd3f5032",
     "url": "/gordo-flaca/static/css/main.7ad02d81.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gordo-flaca/static/js/2.6bc8f5ba.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "367244c7f913dbed2771",
-    "url": "/gordo-flaca/static/js/main.35d4c83c.chunk.js"
+    "revision": "4dd046b4d655fd3f5032",
+    "url": "/gordo-flaca/static/js/main.53cd7cfb.chunk.js"
   },
   {
     "revision": "a8b9d9bc8f6dbc9bdfa6",
