@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3f984b347044f722343254badc8788cb",
+    "revision": "70ffcfa3d21df5a08abe36845bc99865",
     "url": "/gordo-flaca/index.html"
   },
   {
-    "revision": "4dd046b4d655fd3f5032",
-    "url": "/gordo-flaca/static/css/main.7ad02d81.chunk.css"
+    "revision": "eb56c08e407bb5944971",
+    "url": "/gordo-flaca/static/css/main.80a9330b.chunk.css"
   },
   {
-    "revision": "57f00bd3db4e39136481",
-    "url": "/gordo-flaca/static/js/2.6bc8f5ba.chunk.js"
+    "revision": "60cf3670eb928685db8f",
+    "url": "/gordo-flaca/static/js/2.62f1a25c.chunk.js"
   },
   {
-    "revision": "168183d1e7f7ddd4e227a6c479f4ebac",
-    "url": "/gordo-flaca/static/js/2.6bc8f5ba.chunk.js.LICENSE.txt"
+    "revision": "861b275c191767a8663c3a03cc5bb452",
+    "url": "/gordo-flaca/static/js/2.62f1a25c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4dd046b4d655fd3f5032",
-    "url": "/gordo-flaca/static/js/main.53cd7cfb.chunk.js"
+    "revision": "eb56c08e407bb5944971",
+    "url": "/gordo-flaca/static/js/main.0ed51dea.chunk.js"
   },
   {
     "revision": "a8b9d9bc8f6dbc9bdfa6",
