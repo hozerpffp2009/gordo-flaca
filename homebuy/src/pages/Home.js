@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {Container} from "react-bootstrap";
 import {Card, ListGroup, ListGroupItem} from "react-bootstrap";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
@@ -17,8 +18,9 @@ import {MDBNavLink} from "mdbreact";
 
 class Home extends Component {
   render() {
-    return (      
-        <div class="background">
+    return (     
+      <body class="background">
+        <div >
           <div class="jumbotron">
             <Fade top>
               <div className="jumboTitle">
@@ -26,6 +28,7 @@ class Home extends Component {
                 <h3>Get A Fair Cash Offer No Fees. No Commissions!</h3>
               </div>
             </Fade>
+           
           </div>
           <Zoom bottom></Zoom>
           <div class="row">
@@ -81,6 +84,46 @@ class Home extends Component {
               </Fade>
             </div>
           </div>
+          <Container id="contactContainer">
+          <Fade top>
+        <h3>Contact Us</h3>
+        </Fade>
+        <Fade bottom>
+        <form action="/action_page.php">
+          <label for="fName">First Name</label>
+          <input
+            type="text"
+            id="fName"
+            name="firstname"
+            placeholder="Your first name.."
+          ></input>
+          <label for="lName">Last Name</label>
+          <input
+            type="text"
+            id="lName"
+            name="lastname"
+            placeholder="Your last name.."
+          ></input>
+          <label for="state">State</label>
+          <select id="state" name="state">
+            <option value="Texas">Texas</option>
+            <option value="Louisiana">Louisiana</option>
+            <option value="Arkansas">Arkansas</option>
+            <option value="Oklahoma">Oklahoma</option>
+            <option value="New Mexico">New Mexico</option>
+            <option value="Other">Other</option>
+          </select>
+          <label for="subject">Brief Message</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style={{height:200}}
+          ></textarea>
+          <input type="submit" value="Submit"></input>
+        </form>
+        </Fade>
+      </Container>
           <br></br>
           <div class="row">
             <div className="column">
@@ -284,7 +327,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-   
+        </body> 
     );
   }
 }

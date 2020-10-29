@@ -8,7 +8,7 @@ class Footer extends Component {
             <MDBContainer fluid className="text-center text-md-left">
               <MDBRow>
                 <MDBCol md="6">
-                  <h5 className="title">Gordo and flaca</h5>
+                  <h5 className="title">ANJ Investments</h5>
                   <p>
                    A loving husband and wife willing to purchase your home and make a reasonable offer for CASH.
                   </p>
