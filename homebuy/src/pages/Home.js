@@ -15,6 +15,8 @@ import {
   faWallet,
 } from "@fortawesome/free-solid-svg-icons";
 import {MDBNavLink} from "mdbreact";
+import logo from "../images/logo.jpg";
+import ScrollableAnchor from "react-scrollable-anchor";
 
 class Home extends Component {
   render() {
@@ -29,7 +31,13 @@ class Home extends Component {
               </div>
             </Fade>
           </div>
-          <Zoom bottom></Zoom>
+          <Zoom bottom>
+            <ScrollableAnchor id={"logo"}>
+              <div id="logo">               
+                  <img src={logo} alt="logo"></img>
+              </div>
+            </ScrollableAnchor>
+          </Zoom>
           <div class="row">
             <div className="column">
               <Fade right>
@@ -85,16 +93,22 @@ class Home extends Component {
           </div>
           <Container id="contactContainer">
             <Fade top>
-              <h3>Contact Us</h3>
+              <h3>Sell Your House Fast</h3>
+              <p>To receive a fair cash offer, submit the form below.</p>
             </Fade>
             <Fade bottom>
-              <form action="/action_page.php">
+              <form
+                action="mailto:hozerpffp2009@gmail.com"
+                method="post"
+                encType="text/plain"
+              >
                 <label for="fName">First Name</label>
                 <input
                   type="text"
                   id="fName"
                   name="firstname"
                   placeholder="Your first name.."
+                  required
                 ></input>
                 <label for="lName">Last Name</label>
                 <input
@@ -102,15 +116,56 @@ class Home extends Component {
                   id="lName"
                   name="lastname"
                   placeholder="Your last name.."
+                  required
                 ></input>
-                <label for="state">State</label>
-                <select id="state" name="state">
-                  <option value="Texas">Texas</option>
-                  <option value="Louisiana">Louisiana</option>
-                  <option value="Arkansas">Arkansas</option>
-                  <option value="Oklahoma">Oklahoma</option>
-                  <option value="New Mexico">New Mexico</option>
-                  <option value="Other">Other</option>
+                <label for="email">Email</label>
+                <input
+                  type="text"
+                  id="lName"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                ></input>
+                <label for="phone">Phone</label>
+                <input
+                  type="text"
+                  id="lName"
+                  name="phone"
+                  placeholder="111-111-1111"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  required
+                ></input>
+                <label for="address">Property Address</label>
+                <input
+                  type="text"
+                  id="lName"
+                  name="address"
+                  placeholder="Enter Your Property Address"
+                  required
+                ></input>
+                <label for="zip">Property Zip Code</label>
+                <input
+                  type="text"
+                  id="lName"
+                  name="zip"
+                  placeholder="Enter Your Property Zip Code"
+                  required
+                ></input>
+                <label for="beds">#Beds</label>
+                <select id="state" name="beds">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5+</option>
+                </select>
+                <label for="baths">#Baths</label>
+                <select id="state" name="baths">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5+</option>
                 </select>
                 <label for="subject">Brief Message</label>
                 <textarea
@@ -119,7 +174,7 @@ class Home extends Component {
                   placeholder="Write something.."
                   style={{height: 200}}
                 ></textarea>
-                <input type="submit" value="Submit"></input>
+                <input type="submit" value="Click To Get Your Offer"></input>
               </form>
             </Fade>
           </Container>
