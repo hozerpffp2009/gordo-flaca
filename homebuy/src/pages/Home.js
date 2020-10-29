@@ -18,9 +18,9 @@ import {MDBNavLink} from "mdbreact";
 
 class Home extends Component {
   render() {
-    return (     
+    return (
       <body class="background">
-        <div >
+        <div>
           <div class="jumbotron">
             <Fade top>
               <div className="jumboTitle">
@@ -28,7 +28,6 @@ class Home extends Component {
                 <h3>Get A Fair Cash Offer No Fees. No Commissions!</h3>
               </div>
             </Fade>
-           
           </div>
           <Zoom bottom></Zoom>
           <div class="row">
@@ -48,8 +47,8 @@ class Home extends Component {
                       quickly.
                     </Card.Text>
                   </Card.Body>
-                  <Card.Body>                  
-                      <MDBNavLink to="/aboutUs">About Us</MDBNavLink>                   
+                  <Card.Body>
+                    <MDBNavLink to="/aboutUs">About Us</MDBNavLink>
                   </Card.Body>
                 </Card>
               </Fade>
@@ -85,45 +84,45 @@ class Home extends Component {
             </div>
           </div>
           <Container id="contactContainer">
-          <Fade top>
-        <h3>Contact Us</h3>
-        </Fade>
-        <Fade bottom>
-        <form action="/action_page.php">
-          <label for="fName">First Name</label>
-          <input
-            type="text"
-            id="fName"
-            name="firstname"
-            placeholder="Your first name.."
-          ></input>
-          <label for="lName">Last Name</label>
-          <input
-            type="text"
-            id="lName"
-            name="lastname"
-            placeholder="Your last name.."
-          ></input>
-          <label for="state">State</label>
-          <select id="state" name="state">
-            <option value="Texas">Texas</option>
-            <option value="Louisiana">Louisiana</option>
-            <option value="Arkansas">Arkansas</option>
-            <option value="Oklahoma">Oklahoma</option>
-            <option value="New Mexico">New Mexico</option>
-            <option value="Other">Other</option>
-          </select>
-          <label for="subject">Brief Message</label>
-          <textarea
-            id="subject"
-            name="subject"
-            placeholder="Write something.."
-            style={{height:200}}
-          ></textarea>
-          <input type="submit" value="Submit"></input>
-        </form>
-        </Fade>
-      </Container>
+            <Fade top>
+              <h3>Contact Us</h3>
+            </Fade>
+            <Fade bottom>
+              <form action="/action_page.php">
+                <label for="fName">First Name</label>
+                <input
+                  type="text"
+                  id="fName"
+                  name="firstname"
+                  placeholder="Your first name.."
+                ></input>
+                <label for="lName">Last Name</label>
+                <input
+                  type="text"
+                  id="lName"
+                  name="lastname"
+                  placeholder="Your last name.."
+                ></input>
+                <label for="state">State</label>
+                <select id="state" name="state">
+                  <option value="Texas">Texas</option>
+                  <option value="Louisiana">Louisiana</option>
+                  <option value="Arkansas">Arkansas</option>
+                  <option value="Oklahoma">Oklahoma</option>
+                  <option value="New Mexico">New Mexico</option>
+                  <option value="Other">Other</option>
+                </select>
+                <label for="subject">Brief Message</label>
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something.."
+                  style={{height: 200}}
+                ></textarea>
+                <input type="submit" value="Submit"></input>
+              </form>
+            </Fade>
+          </Container>
           <br></br>
           <div class="row">
             <div className="column">
@@ -327,7 +326,7 @@ class Home extends Component {
             </div>
           </div>
         </div>
-        </body> 
+      </body>
     );
   }
 }
