@@ -36,9 +36,6 @@ class Nav extends Component {
               <MDBNavLink to="/gordo-flaca">Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="/contactUs">Contact Us</MDBNavLink>
-            </MDBNavItem>
-            <MDBNavItem>
               <MDBNavLink to="/aboutUs">About Us</MDBNavLink>
             </MDBNavItem>
           </MDBNavbarNav>

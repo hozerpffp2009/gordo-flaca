@@ -17,11 +17,29 @@ import {
 import {MDBNavLink} from "mdbreact";
 import logo from "../images/logo.jpg";
 import ScrollableAnchor from "react-scrollable-anchor";
+import emailjs from 'emailjs-com';
 
 class Home extends Component {
+  state ={
+    name: "",
+    email: "",
+    message: "",
+    emailStatus : ""
+  }
   render() {
+    function sendEmail(e) {
+      e.preventDefault();
+    
+      emailjs.sendForm('service_0gw7b8s', 'template_7kxszml', e.target, 'user_nBn6qSWpfr7v7m8wDgzYV')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    }
     return (
-      <body class="background">
+      <body>
         <div>
           <div class="jumbotron">
             <Fade top>
@@ -97,11 +115,8 @@ class Home extends Component {
               <p>To receive a fair cash offer, submit the form below.</p>
             </Fade>
             <Fade bottom>
-              <form
-                action="mailto:hozerpffp2009@gmail.com"
-                method="post"
-                encType="text/plain"
-              >
+              <form onSubmit={sendEmail}>
+ 
                 <label for="fName">First Name</label>
                 <input
                   type="text"

@@ -1,4 +1,6 @@
-
+body{
+  background-color: lightgray;
+}
 
 .background {
   background: url("./images/oldHome.JPG") no-repeat center fixed;
@@ -8,7 +10,8 @@
 }
 
 #aboutText {
-  margin-top: 10%;
+  margin-top: 5%;
+  background-color: whitesmoke;
 }
 .Card {
   opacity: 0.8;
