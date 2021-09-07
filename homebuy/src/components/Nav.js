@@ -23,7 +23,8 @@ class Nav extends Component {
     return (
       <MDBNavbar className="topnav" dark expand="md">
         <MDBNavbarBrand>
-          <MDBNavLink to="/contactUs">
+          <MDBNavLink to="/contactUs"> 
+          {/* eslint-disable-next-line */}
             <a class="navbar-brand">
               <FontAwesomeIcon id="check" icon={faEnvelope} size="2x" />
             </a>

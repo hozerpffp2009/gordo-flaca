@@ -39,7 +39,7 @@ class Home extends Component {
         e.target.reset()
     }
     return (
-      <body>
+      <body className="background">
         <div>
           <div class="jumbotron">
             <Fade top>
