@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Container, Image} from "react-bootstrap";
 import samSel from "../images/sam-sel.jpeg";
-import {Fade, Roll} from "react-reveal";
+import {Fade} from "react-reveal";
 
 class AboutUs extends Component {
   render() {
@@ -12,8 +12,7 @@ class AboutUs extends Component {
             <h1>About Us</h1>
           </Fade>
         </div>
-        <Container>
-          {/* <Roll bottom> */}
+        <Container>}
           <div class="flip-card">
           <div class="flip-card-inner">  
           <div class="flip-card-front">
@@ -26,14 +25,6 @@ class AboutUs extends Component {
           </div>
         </div>
       </div>
-          {/* </Roll> */}
-          {/* <Fade bottom>
-            <p id="aboutText">
-             Our mission is simple - to make selling your home as fast and easy as possible! We are a local company that specializes
-             in helping homeowners sell their houses without agents, fees, or commissions! It doesn't matter what reason you have for selling,
-             or the condition fo your property - we can help. We make all CASH offers, and close quickly.
-            </p>
-          </Fade> */}
         </Container>
       </body>
     );
