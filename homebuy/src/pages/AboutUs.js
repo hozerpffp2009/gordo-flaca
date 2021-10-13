@@ -13,25 +13,27 @@ class AboutUs extends Component {
           </Fade>
         </div>
         <Container>
-          <Roll bottom>
+          {/* <Roll bottom> */}
+          <div class="flip-card">
+          <div class="flip-card-inner">  
+          <div class="flip-card-front">
             <Image id="samImg" src={samSel} />
-          </Roll>
-          <Fade bottom>
+            </div>             
+          <div class="flip-card-back">
+            <p> Our mission is simple - to make selling your home as fast and easy as possible! We are a local company that specializes
+             in helping homeowners sell their houses without agents, fees, or commissions! It doesn't matter what reason you have for selling,
+             or the condition fo your property - we can help. We make all CASH offers, and close quickly.</p>
+          </div>
+        </div>
+      </div>
+          {/* </Roll> */}
+          {/* <Fade bottom>
             <p id="aboutText">
-              Cras in quam non ligula dignissim egestas a et odio. Curabitur
-              tincidunt id tortor eget tristique. Cras convallis mi quis
-              tristique luctus. Vivamus vitae mollis sapien. Donec aliquam et ex
-              non euismod. Integer lacinia, ante at bibendum molestie, neque
-              sapien eleifend arcu, et aliquet lacus velit eu nisi. Suspendisse
-              tristique convallis lorem, pellentesque pulvinar metus feugiat ac.
-              Sed pellentesque, orci non efficitur euismod, dolor eros commodo
-              sapien, id posuere arcu sapien quis nisi. In massa dui, commodo
-              non placerat et, molestie eu tellus. Aliquam a aliquet libero,
-              quis venenatis diam. Donec vel felis eros. Pellentesque molestie,
-              lacus at porta iaculis, dui diam volutpat mi, ultrices tincidunt
-              justo lorem in augue.
+             Our mission is simple - to make selling your home as fast and easy as possible! We are a local company that specializes
+             in helping homeowners sell their houses without agents, fees, or commissions! It doesn't matter what reason you have for selling,
+             or the condition fo your property - we can help. We make all CASH offers, and close quickly.
             </p>
-          </Fade>
+          </Fade> */}
         </Container>
       </body>
     );
